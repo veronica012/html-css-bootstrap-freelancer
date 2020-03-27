@@ -1,12 +1,6 @@
 header {
     background-color: #18399a;
     color: white;
-}
-header .col-lg-4 {
-    padding: 30px;
-
-}
-header .col-lg-8 {
     padding: 30px;
 }
 .jumbotron {
