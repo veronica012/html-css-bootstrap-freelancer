@@ -1,5 +1,5 @@
 header {
-    background-color: #18399a;
+    background-color:  #313e4f;
     color: white;
     padding: 30px;
 }
@@ -12,6 +12,7 @@ header {
     width: 200px;
     height: auto;
 }
+
 .jumbotron p {
     font-size: 30px;
 }
