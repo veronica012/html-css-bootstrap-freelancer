@@ -8,8 +8,8 @@ header {
 }
 .jumbotron {
     background-color: mediumaquamarine;
-    padding: 30px;
     color: white;
+    padding: 30px;
 }
 .jumbotron img {
     width: 200px;
@@ -18,7 +18,14 @@ header {
 
 .jumbotron p {
     font-size: 30px;
+    margin: 20px;
 }
 .jumbotron ul {
     font-weight: 300;
+}
+.linea {
+    display: inline-block;
+    background-color: white;
+    height: 2px;
+    width: 80px;
 }
