@@ -2,7 +2,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 header {
-    background-color:  #313e4f;
+    background-color: #313e4f;
     color: white;
     padding: 30px;
 }
@@ -10,6 +10,7 @@ header {
     background-color: mediumaquamarine;
     color: white;
     padding: 30px;
+    margin-bottom: 0;
 }
 .jumbotron img {
     width: 200px;
@@ -23,9 +24,97 @@ header {
 .jumbotron ul {
     font-weight: 300;
 }
-.linea {
-    display: inline-block;
+
+.separatore {
+
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.separatore::before,
+.separatore::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 60px) / 2);
+    height: 3px;
     background-color: white;
-    height: 2px;
-    width: 80px;
+}
+
+.separatore::before {
+    left: 0;
+}
+
+.separatore::after {
+    right: 0;
+}
+
+.portfolio {
+    margin-top: 0;
+    color: #313e4f;
+    padding: 30px;
+    margin-bottom: 0;
+}
+.portfolio p {
+    font-size: 30px;
+    margin: 20px;
+}
+.portfolio .separatore::before,
+.portfolio .separatore::after {
+    background-color: #313e4f;
+}
+
+.images {
+    padding: 50px;
+}
+.images img {
+    max-width: 100%;
+    height: auto;
+}
+.margin-bottom {
+    margin-bottom: 20px;
+}
+.about-header {
+    background-color: mediumaquamarine;
+    padding-top: 50px;
+    color: white;
+
+}
+.about-content {
+    background-color: mediumaquamarine;
+    color: white;
+    padding: 50px;
+}
+.about-content p {
+    font-size: 20px;
+}
+
+.contact-me {
+    padding: 50px;
+}
+.contact-me h2{
+    color: #313e4f;
+}
+.contact-me .separatore::before,
+.contact-me .separatore::after {
+    background-color: #313e4f;
+}
+.form-control {
+    height: 50px;
+    color: #495057;
+}
+textarea.form-control {
+    height: 200px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    padding:20px 25px;
+    font-size: 20px;
+}
+.send {
+    margin-top: 50px;
 }
